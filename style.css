@@ -1,0 +1,221 @@
+body {
+    background-color: white;
+  margin: 0px;
+   
+   
+}
+
+#arriba{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    /* text-align: end; */
+}
+h1{
+    margin: 0%;
+    text-align: -webkit-center;
+    font-family: 'Bitter', serif;
+font-family: 'Rubik Wet Paint', cursive;
+color: chartreuse;
+font-size: 50px;
+}
+
+#botones{
+   
+    text-decoration: none;
+   }
+#todos{
+    background-color: rgba(0,0,0,0.1); 
+    color: chartreuse ;
+    border: 0px;
+    cursor: pointer;
+    
+   
+}
+
+#mujeres{
+    background-color: rgba(0,0,0,0.1);
+    color: chartreuse;
+    border: 0px;
+    cursor: pointer;
+  
+}
+
+#hombres{
+    background-color: rgba(0,0,0,0.1);
+    color: chartreuse;
+    border: 0px;
+    cursor: pointer;
+   
+
+}
+
+#singenero{
+    background-color: rgba(0,0,0,0.1);
+    color: chartreuse;
+    border: 0px;
+    cursor: pointer;
+    
+}
+
+#generodesconocido{ 
+    background-color:rgba(0,0,0,0.1);
+    color: chartreuse;
+    border: 0px;
+    cursor: pointer;
+   
+}
+ul{
+    padding: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end ;
+    gap: 30px;
+}
+
+li{
+    transition: all;
+}
+li:hover{
+    transform:scale(1.2);
+
+}
+
+#contenedor{
+    margin: 100px 15px 15px 15px;
+    display: grid;
+    gap: 30px;
+    max-width: 2000px;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+}
+
+#cards{
+    border: 1px solid gray;
+    border-top-right-radius:30px 
+    font-family'EB Garamond', serif;
+    text-align: center;
+    
+    }
+
+#cards:hover{
+    box-shadow: 18px 22px 21px 0px rgba(0, 0, 0, 0.66);
+  cursor: pointer;
+}
+
+#img-card{
+    width: 100%;
+    height: 400px;
+}
+#img-card:hover{
+    filter: grayscale(1);
+    transition: all 0.6s ease;
+}
+
+#arcor{
+    text-decoration: none;
+    color: green;
+    font-family: 'Cinzel', serif;
+}
+
+footer{
+  width: 100%;
+height: 100px;
+background-color: black;
+text-align: center;
+color: chartreuse;
+font-family: 'Cormorant', serif;
+font-size: 44px;
+
+}
+
+#paginas{
+     text-align: center
+}
+
+
+
+
+#primera{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    border: 5px solid green;
+    cursor: pointer;
+}
+
+
+
+#anterior{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    border: 5px solid green;
+    cursor: pointer;
+}
+
+
+
+
+#siguiente{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+   border: 5px solid green;
+    cursor: pointer;
+}
+
+#ultima{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    border: 5px solid green;
+    cursor: pointer;
+}
+/* de 0 px a 545px */
+@media(max-width:545px){
+       
+    #arriba{
+        background-color: rgb(0, 0, 0);
+        width:100% ;}
+        
+        h1{
+            margin: 0%;
+            text-align:center;
+            font-family: 'Bitter', serif;
+        font-family: 'Rubik Wet Paint', cursive;
+        color: chartreuse;
+        font-size: 35px;
+        }
+
+        #todos{
+            visibility: hidden;}
+        
+        #mujeres{
+            visibility: hidden;
+          
+        }
+        
+        #hombres{
+            visibility: hidden;
+           
+        
+        }
+        
+        #singenero{
+            visibility: hidden;
+            
+        }
+        
+        #generodesconocido{ 
+            visibility: hidden;
+        }
+
+        footer{
+            width: 100%;
+          height: 100%;
+          background-color: black;
+          text-align: center;
+          color: chartreuse;
+          font-family: 'Cormorant', serif;
+          font-size: 26px};
+        }
